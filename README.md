@@ -125,3 +125,5 @@ The test automatically creates a screenshot of the checkout page with full page 
 ## License
 
 GPL-2.0
+
+## Some moments about test: test is flaky. Sometimes one or several products are added to basket with incorrect price and test fails, i am sure that there is a bug, however task was to create e2e test, and it was done and he found a bug, to recognize it need to make deeper investigation. There are still several moments how to make test better and more stable, but for this need to change app FE code, basically need to place data-test attributes on elements, from QA architecture DOM is "empty" and create stable automation tests where all elements are random is bad solution, sure it is faster to develop but much harder to follow the quality.
