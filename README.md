@@ -34,7 +34,6 @@ Ubie2eProj/
 │   │   ├── e2e.ts                    # E2E configuration
 │   │   └── interceptors.ts           # Request interceptors
 │   ├── screenshots/                  # Screenshots (git ignored)
-│   └── videos/                        # Test videos (git ignored)
 ├── cypress.config.ts                  # Cypress configuration
 ├── package.json                       # Dependencies and scripts
 ├── tsconfig.json                      # TypeScript configuration
